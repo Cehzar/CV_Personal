@@ -21,7 +21,7 @@ export default function ExpandableCard(): JSX.Element {
           flexDirection: "column",
           padding: "1.35rem 0",
           color: isCardExpanded ? "white" : "currentColor",
-          alignItems: "center", // Centra el contenido horizontalmente
+          alignItems: "center",
         }}
       >
         <div
@@ -30,14 +30,14 @@ export default function ExpandableCard(): JSX.Element {
             display: "flex",
             alignItems: "center",
             flexDirection: "column",
-            textAlign: "center", // Centra el texto horizontalmente
+            textAlign: "center", 
           }}
         >
           <h3
             style={{
               fontWeight: 600,
               fontSize: "1.4em",
-              margin: 0, // Quita el margen predeterminado
+              margin: 0, 
             }}
           >
             Sobre mi
@@ -49,7 +49,7 @@ export default function ExpandableCard(): JSX.Element {
             cursor: "pointer",
             display: "flex",
             flexDirection: "column",
-            alignItems: "center", // Centra la imagen y el texto cuando expandido
+            alignItems: "center",
           }}
           onClick={() => setIsCardExpanded(!isCardExpanded)}
         >
@@ -67,7 +67,7 @@ export default function ExpandableCard(): JSX.Element {
                 display: "flex",
                 flexDirection: "column",
                 gap: "1rem",
-                alignItems: "center", // Centra el contenido horizontalmente
+                alignItems: "center", 
               }}
             >
               <h4 style={{ fontSize: "1.2em", fontWeight: 600 }}>

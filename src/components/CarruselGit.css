@@ -1,0 +1,34 @@
+/* components/Carousel.css */
+
+.carousel {
+    position: relative;
+    width: 100%;
+    max-width: 600px;
+    margin: auto;
+  }
+  
+  .carousel-button {
+    background-color: rgba(0, 0, 0, 0.5);
+    border: none;
+    color: white;
+    padding: 10px;
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 2;
+  }
+  
+  .prev-button {
+    left: 10px; /* Ajusta la posición de la flecha izquierda */
+  }
+  
+  .next-button {
+    right: 10px; /* Ajusta la posición de la flecha derecha */
+  }
+  
+  .carousel-content {
+    width: 100%;
+    overflow: hidden;
+  }
+  

@@ -1,0 +1,19 @@
+/* Hero.css */
+.hero {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%; /* Asegura que el contenedor ocupa toda la altura disponible */
+}
+
+.hero-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%; /* Asegura que el contenedor ocupa toda la altura disponible */
+  padding: 20px;
+}

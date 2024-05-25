@@ -1,8 +1,17 @@
+// src/pages/Proyect.tsx
 import Hero from "@/components/hero";
-import HomeImg from "../../../public/naveEspacial.webp";
+import HomeImg from "../../../public/Fondo.jpg";
+import GetRepositorys from "@/components/GetRepositorys";
+import "../../app/globals.css"; // Ajusta la ruta según la ubicación real de tu archivo global.css
 
-export default function Proyect() {
-    return (
-      <Hero imgData={HomeImg} imgAlt = "Navee" title = "Mis Proyectos"/>
-    );
-  } 
+const Proyect: React.FC = () => {
+  return (
+    <Hero imgData={HomeImg} imgAlt="Home">
+      <div className="container mx-auto px-4">
+        <GetRepositorys />
+      </div>
+    </Hero>
+  );
+};
+
+export default Proyect;

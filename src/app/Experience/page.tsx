@@ -1,8 +1,8 @@
 import Hero from "@/components/hero";
-import HomeImg from "../../../public/Gato_Baterista.jpg";
+import HomeImg from "../../../public/Fondo.jpg";
 
 export default function Experience() {
     return (
-      <Hero imgData={HomeImg} imgAlt = "Gato" title = "Gato Baterista"/>
+      <Hero imgData={HomeImg} imgAlt = "Gato" />
     );
   } 

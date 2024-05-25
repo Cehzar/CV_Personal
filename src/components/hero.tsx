@@ -5,8 +5,8 @@ import { ReactNode } from "react";
 interface HeroProps {
   imgData: StaticImageData;
   imgAlt: string;
-  title?: string;
   children?: ReactNode;
+  extraContent?: ReactNode;
 }
 
 export default function Hero(props: HeroProps) {
@@ -22,9 +22,9 @@ export default function Hero(props: HeroProps) {
       </div>
       <div className="absolute inset-0 bg-gradient-to-r from-slate-900 opacity-50"></div>
       <div className="z-20 text-center">
-        <h1 className="text-white text-6xl mb-8">{props.title}</h1>
-        <div className="w-full flex justify-center">
-          {props.children}
+        {props.children}
+        <div className="mt-4">
+          {props.extraContent}
         </div>
       </div>
     </div>
