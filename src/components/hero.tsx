@@ -6,7 +6,6 @@ interface HeroProps {
   imgData: StaticImageData;
   imgAlt: string;
   children?: ReactNode;
-  extraContent?: ReactNode;
 }
 
 export default function Hero(props: HeroProps) {
@@ -23,9 +22,6 @@ export default function Hero(props: HeroProps) {
       <div className="absolute inset-0 bg-gradient-to-r from-slate-900 opacity-50"></div>
       <div className="z-20 text-center">
         {props.children}
-        <div className="mt-4">
-          {props.extraContent}
-        </div>
       </div>
     </div>
   );

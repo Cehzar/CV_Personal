@@ -30,18 +30,29 @@ export default function ExpandableCard(): JSX.Element {
             display: "flex",
             alignItems: "center",
             flexDirection: "column",
-            textAlign: "center", 
+            textAlign: "center",
           }}
         >
           <h3
             style={{
               fontWeight: 600,
-              fontSize: "1.4em",
-              margin: 0, 
+              fontSize: "1.5em",
+              margin: 0,
+              whiteSpace: "nowrap",
             }}
           >
-            Sobre mi
+            Hola, mi nombre es César Pérez Esquivel.
           </h3>
+          <h4
+            style={{
+              fontWeight: 600,
+              fontSize: "1.5em",
+              margin: 0,
+              whiteSpace: "nowrap",
+            }}
+          >
+           Bienvenido a mi currículum web.
+          </h4>
         </div>
         <div
           style={{
@@ -59,7 +70,7 @@ export default function ExpandableCard(): JSX.Element {
               height: "auto",
             }}
             alt="Sobre mi"
-            src="https://react-magic-motion.nyc3.cdn.digitaloceanspaces.com/examples/expandable-card/mona-lisa.jpg"
+            src="/fotoPerfil.jpg"
           />
           {isCardExpanded && (
             <section
@@ -67,33 +78,29 @@ export default function ExpandableCard(): JSX.Element {
                 display: "flex",
                 flexDirection: "column",
                 gap: "1rem",
-                alignItems: "center", 
+                alignItems: "center",
+                fontSize: "1em",
               }}
             >
               <h4 style={{ fontSize: "1.2em", fontWeight: 600 }}>
                 "Con determinación y dedicación, alcanzaré mis metas laborales."
               </h4>
               <p>
-                Unveil the allure of the world-renowned masterpiece, the Mona
-                Lisa, displayed in the heart of the Louvre Museum in Paris.
-                Painted by the illustrious Leonardo da Vinci between 1503 and
-                1506, this portrait is celebrated for Mona Lisa's enigmatic
-                smile that seems to change depending on the viewing angle.
+                Soy un estudiante universitario de la UCR, actualmente cursando
+                la carrera de Informática Empresarial, y me encuentro en la
+                constante búsqueda de nuevas oportunidades y desafíos que me
+                permitan crecer tanto a nivel profesional como personal.
               </p>
               <p>
-                The exquisite blending of light and shadow, known as sfumato,
-                contributes to the mystique of her expression. Da Vinci’s
-                remarkable attention to detail is evident in the delicate
-                veiling and the meticulous background landscapes that frame Mona
-                Lisa's serene demeanor.
+                Mi experiencia en servicio al cliente ha fortalecido mis
+                habilidades de comunicación y empatía, mientras que mi
+                capacidad para trabajar bajo presión me ha enseñado a mantener
+                la calma y la eficiencia en situaciones desafiantes.
               </p>
               <p>
-                The artistry and the mysteries enveloping the Mona Lisa continue
-                to captivate audiences, making it an enduring symbol of the
-                Renaissance era. Experience the magnetism of the Mona Lisa, a
-                testament to Leonardo da Vinci's genius, and delve into a visual
-                dialogue with a smile that has intrigued the world for
-                centuries.
+                Aspiro a encontrar oportunidades en las que pueda seguir
+                desafiándome a mí mismo, cultivando mis habilidades y
+                alcanzando nuevos niveles de excelencia profesional y personal.
               </p>
             </section>
           )}

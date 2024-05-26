@@ -1,8 +1,7 @@
-// src/pages/Proyect.tsx
 import Hero from "@/components/hero";
 import HomeImg from "../../../public/Fondo.jpg";
 import GetRepositorys from "@/components/GetRepositorys";
-import "../../app/globals.css"; // Ajusta la ruta según la ubicación real de tu archivo global.css
+import "../../app/globals.css"; 
 
 const Proyect: React.FC = () => {
   return (

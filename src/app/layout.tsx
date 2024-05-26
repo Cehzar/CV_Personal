@@ -1,14 +1,12 @@
-// src/app/layout.tsx
-
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import { config } from "@fortawesome/fontawesome-svg-core";
-import "@fortawesome/fontawesome-svg-core/styles.css"; // Importa el CSS de FontAwesome
+import "@fortawesome/fontawesome-svg-core/styles.css"; 
 import "./globals.css";
 import Header from "@/components/header";
 import Footer from "@/components/Footer";
 
-config.autoAddCss = false; // Indica a FontAwesome que no agregue el CSS automáticamente
+config.autoAddCss = false; 
 
 const inter = Inter({ subsets: ["latin"] });
 

@@ -1,5 +1,3 @@
-/* components/GetRepositorys.css */
-
 .repo-item {
     border: 2px solid #ccc;
     border-radius: 6px;
@@ -17,7 +15,7 @@
     object-fit: cover;
     margin-bottom: 10px;
     border: none;
-    align-self: center; /* Centra verticalmente */
+    align-self: center;
   }
   
   .repo-title {

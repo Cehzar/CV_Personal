@@ -1,4 +1,3 @@
-// components/Carousel.tsx
 import React, { useState } from 'react';
 import '../components/CarruselGit.css';
 
