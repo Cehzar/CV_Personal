@@ -1,7 +1,5 @@
-
-
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faFacebook, faInstagram, faWhatsapp } from "@fortawesome/free-brands-svg-icons";
+import { faFacebook, faInstagram, faWhatsapp, faLinkedin } from "@fortawesome/free-brands-svg-icons";
 import Image from "next/image";
 import logo from "../../public/Logo3.png";
 
@@ -26,6 +24,9 @@ export default function Footer() {
             </a>
             <a href="https://wa.me/50687462555" target="_blank" rel="noopener noreferrer">
               <FontAwesomeIcon icon={faWhatsapp} size="2x" />
+            </a>
+            <a href="https://www.linkedin.com/in/cesar-perez-486030310/" target="_blank" rel="noopener noreferrer">
+              <FontAwesomeIcon icon={faLinkedin} size="2x" />
             </a>
           </div>
         </div>
