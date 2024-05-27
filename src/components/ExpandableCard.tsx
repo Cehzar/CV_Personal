@@ -83,7 +83,7 @@ export default function ExpandableCard(): JSX.Element {
               }}
             >
               <h4 style={{ fontSize: "1.2em", fontWeight: 600 }}>
-                "Con determinación y dedicación, alcanzaré mis metas laborales."
+                &quot;Con determinación y dedicación, alcanzaré mis metas laborales.&quot;
               </h4>
               <p>
                 Soy un estudiante universitario de la UCR, actualmente cursando
